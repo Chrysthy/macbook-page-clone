@@ -1,0 +1,2 @@
+Código de terceiros: uma biblioteca, um framework, agluma coisa. As dependências ficam nessa pasta.
+Vendor = fornecedor
