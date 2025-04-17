@@ -39,6 +39,14 @@
 
 <br>
 
+## ✨ Features
+
+- Good project organization practices.
+- Responsive layout (adapts to different screen sizes).
+- Dynamic color switching (simulating model selection).
+  
+<br>
+
 ## 💻 Project
 
 - The project was created to practice HTML, CSS and JavaScript.
