@@ -1,6 +1,6 @@
 <h1 align="center">Macbook Page Clone 💻 </h1> 
 
-<p align="center">This project was created during Start Week to practice HTML, CSS, and Vanilla JavaScript by recreating the official MacBook Air webpage..</p>
+<p align="center">This project was created during Start Week to practice HTML, CSS, and Vanilla JavaScript by recreating the official MacBook Air webpage.</p>
 
 
 <p align="center">  
