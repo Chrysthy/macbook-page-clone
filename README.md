@@ -28,4 +28,13 @@
 
 <br>
 
+## 🛠 Technologies
+
+* HTML 5
+* CSS 3
+* JavaScript Vanilla
+* Skeleton lib
+* Git e GitHub
+
+<br>
 
