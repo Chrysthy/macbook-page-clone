@@ -1,6 +1,6 @@
 <h1 align="center">Macbook Page Clone 💻 </h1> 
 
-<p align="center">Replica of the MacBook webpage.</p>
+<p align="center">This project was created during Start Week to practice HTML, CSS, and Vanilla JavaScript by recreating the official MacBook Air webpage..</p>
 
 
 <p align="center">  
@@ -27,3 +27,5 @@
 <img src=".github/imagem-do-projeto.PNG" alt="Imagem do Projeto">
 
 <br>
+
+
