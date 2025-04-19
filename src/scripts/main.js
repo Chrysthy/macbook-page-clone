@@ -1,0 +1,1 @@
+const colorNavItems = document.querySelectorAll('.color__list-item');
