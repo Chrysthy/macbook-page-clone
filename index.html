@@ -16,72 +16,62 @@
 
 <body>
 
-    <!-- main -->
-
+    <!-- main  -->
     <main class="main">
 
-        <h1 class="main__title">Macbook Air</h1>
+        <h1 class="main__title">MacBook Air</h1>
 
-        <p class="main__subtitle">Velocidade no ar.</p>
+        <p class="main__subtitle gradient-text-blue">Velocidade no ar.</p>
 
-        <picture>
+        <picture class="main__media">
 
-            <source srcset="./src/images/sections/hero_static__2x_small.png" media="(max-width:743px)">
-
-            <img src="./src/images/sections/hero_static__2x.png" alt="dois notebooks finos do macbook air">
+            <source srcset="./src/images/sections/hero_static__2x_small.png" media="(max-width: 734px)">
+            <img class="main__media-image" src="./src/images/sections/hero_static__2x.png"
+                alt="Dois notebooks MacBook Air na cor azul-céu abertos e formando uma seta para ressaltar o design fino">
 
         </picture>
 
-        <div>
+        <div class="main__copy-container">
 
-            <p>Feito pela Apple Intelligence.</p>
+            <p class="main__copy-text 
+            gradient-text-colorful">Feito para Apple Intelligence.</p>
 
-            <a href="#">
-
-                <button>Ver preços</button>
-
+            <a href="">
+                <button>Ver Preços</button>
             </a>
 
-            <p>A partir de R$ 1.083,25/mês ou R$ 12.999 *</p>
+            <p class="main__pricing">A partir de R$ 1.083,25/mês ou R$ 12.999*</p>
 
-            <p>Confira em breve a disponibilidade.</p>
+            <p class="main__availability">Confira em breve a disponibilidade.</p>
 
-            <p>
-                A Apple Intelligence já está disponível em português do Brasil.
+            <p class="main__language">
+                A Apple Intelligence já está disponível em português do Brasil
 
                 <sup>
-
-                    <a href="#" aria-label="Nota de Rodapé #1">1</a>
-
+                    <a href="#" aria-label="Nota de rodapé 1">1</a>
                 </sup>
 
             </p>
 
+            <div class="main__description">
 
-            <div>
-
-                <p>
-                    O MacBook Air com chip M4 foi feito para você arrasar em tudo o que faz, com <em>ate 18 horas de
-                        bateria
+                <p class="description-text">
+                    O MacBook Air com chip M4 foi feito para você arrasar em tudo o que faz, com
+                    <em>até 18 horas de bateria
 
                         <sup>
-
-                            <a href="#" aria-label="Nota de Rodapé #2">2</a>
-
+                            <a href="#" aria-label="Nota de rodapé 2">2</a>
                         </sup>
 
                     </em>.
-
+                    
                     Ele é feito para <em>Apple Intelligence</em> e ajuda a resolver a vida sem esforço
-
                     <sup>
 
-                        <a href="#" aria-label="Nota de Rodapé #3">3</a>
+                        <a href="#" aria-label="Nota de rodapé 1">1</a>
+                    </sup>.
 
-                    </sup>
-
-                    E ficou ainda mais encantador na cor azul-céu. O MacBook Air é tão perfeito e tão portátil que vai
-                    para qualquer lugar e faz de tudo com você.
+                    E ficou ainda mais encantador na cor azul-céu. O MacBook Air é tão perfeito e tão portátil que vai para qualquer lugar e faz de tudo com você.
 
                 </p>
 
@@ -91,30 +81,29 @@
 
     </main>
 
-
     <!-- design section -->
-    <article>
+    <article class="section-design">
 
         <section>
 
-            <h2>Design</h2>
+            <h2 class="section-design__title">Design</h2>
 
-            <p>Leve pelo caminho.</p>
+            <p class="section-design__subtitle gradient-text-blue">Leve pelo caminho.</p>
 
         </section>
 
-        <picture>
+        <picture class="section-design__media">
 
-            <source srcset="./src/images/sections/design_hero_static___2x_small.jpg" media="(max-width:743px)">
+            <source srcset="./src/images/sections/design_hero_static___2x_small.jpg" media="(max-width: 734px)">
 
-            <img src="./src/images/sections/design_hero_static___2x.jpg"
-                alt="dois notebooks finos do macbook air parcialmente abertos">
+            <img class="section-design__media-image" src="./src/images/sections/design_hero_static___2x.jpg"
+                alt="Dois notebooks MacBook Air de 13 e 15 polegadas parcialmente abertos, com uma tela mostrando um trabalho de design em andamento, e a outra mostrando o recurso de multitarefa com e-mail e planilhas">
 
         </picture>
 
         <section>
 
-            <p>
+            <p class="description-text">
                 <em>Superleve e com pouco mais de 1 cm de espessura</em>, o MacBook Air se encaixa facilmente na
                 correria da sua rotina e na sua mochila. O modelo com M4 é feito com mais de 50% de materiais reciclados
                 e o alumínio da estrutura resistente também é reciclado.
@@ -124,55 +113,80 @@
 
         <section>
 
-            <div>
+            <div class="subsection-size">
 
-                <div>
+                <div class="subsection-size__screen-container">
 
-                    <p>
-
-                        <span>Tela de 13 Polegadas</span>
-
+                    <p class="subsection-size__screen-text">
+                        <span>Tela de </span>
+                        13 pol.
                     </p>
 
-                    <p>
-
-                        <span>Tela de 15 Polegadas</span>
-
+                    <p class="subsection-size__screen-text">
+                        <span>Tela de </span>
+                        15 pol.
                     </p>
 
                 </div>
+
+                <p>
+                    <em>Em dois tamanhos perfeitos e portáteis.</em>
+                    O modelo de 13 polegadas é o melhor notebook para levar com você, e o de 15 polegadas tem mais área
+                    de trabalho na tela para multitarefa
+
+                    <sup>
+                        <a href="#" aria-label="Nota de rodapé 3">3</a>
+                    </sup>.
+
+                </p>
 
             </div>
 
-            <div>
+            <div class="subsection-colors">
 
-                <div>
+                <div class="subsection-colors-item one">
 
-                    <img src="src/images/colors/design_side_skyblue.jpg" alt="Macbook de lado">
-
-                </div>
-
-                <div>
-
-                    <img src="src/images/colors/design_magsafe_skyblue.jpg" alt="Macbook mostrando o sistema MagSafe">
+                    <img id="imageSide" src="./src/images/colors/design_side_skyblue.jpg" alt="Design Side">
 
                 </div>
 
-                <div>
+                <div class="subsection-colors-item two">
 
-                    <img src="src/images/colors/design_top_skyblue.jpg" alt="Macbook mostrando o topo do design ">
+                    <img id="imageMagsafe" src="./src/images/colors/design_magsafe_skyblue.jpg" alt="Design Magsafe">
 
-                    <fieldset>
+                </div>
 
-                        <ul>
+                <div class="subsection-colors-item three">
 
-                            <li>Azul-Céu</li>
+                    <img id="imageTop" src="./src/images/colors/design_top_skyblue.jpg" alt="Design Top">
 
-                            <li>Prateado</li>
+                    <fieldset class="colornav">
 
-                            <li>Estelar</li>
+                        <ul class="colornav-items">
 
-                            <li>Meia noite</li>
+                            <li class="colornav-item current" data-color="skyblue">
+
+                                <span class="colornav-label">Azul-céu</span>
+
+                            </li>
+
+                            <li class="colornav-item" data-color="silver">
+
+                                <span class="colornav-label">Prateado</span>
+
+                            </li>
+
+                            <li class="colornav-item" data-color="starlight">
+
+                                <span class="colornav-label">Estelar</span>
+
+                            </li>
+
+                            <li class="colornav-item" data-color="midnight">
+
+                                <span class="colornav-label">Meia-noite</span>
+
+                            </li>
 
                         </ul>
 
@@ -180,19 +194,16 @@
 
                 </div>
 
-
             </div>
 
             <p>
-                <em>Nova cor. Tudo Azul</em>
-
+                <em>Nova cor. Tudo azul.</em>
                 São quatro cores divinas para você escolher. Uma delas é a nova azul-céu. E todos os modelos de MacBook
                 Air vêm com um cabo MagSafe na mesma cor.
             </p>
 
         </section>
-
-
+        
     </article>
 
 
