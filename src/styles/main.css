@@ -91,7 +91,7 @@ Text Styles
     background-clip: text;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../images/fx/gradient.jpg");
+    background-image: url("../images/fundo-texto/gradient.jpg");
     color: transparent;
 }
 
