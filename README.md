@@ -24,7 +24,7 @@
 
 ## 📸 Screenshots
 
-<img src=".github/imagem-do-projeto.PNG" alt="Imagem do Projeto">
+<img src=".github/gif-do-projeto.gif" alt="Imagem do Projeto">
 
 <br>
 
